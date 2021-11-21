@@ -1,24 +1,24 @@
 {
     "contactos": [],
     "experiencia-laboral": [{
-            "empresa": "pepe",
-            "puesto": "pepe2",
-            "descripcion": "descripcion1",
-            "fechaInicio": "2020-01-01T00:00:00.000Z",
+            "empresa": "Catholic University of Uruguay",
+            "puesto": "Teaching Assistant, Programming I",
+            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet auctor nisl. Nullam ac libero sed justo feugiat rutrum.",
+            "fechaInicio": "2020-02-01T00:00:00.000Z",
+            "fechaFin": "2021-03-01T00:00:00.000Z"
+        },
+        {
+            "empresa": "Sabre Corporation",
+            "puesto": "Senior Software Engineer",
+            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet auctor nisl. Nullam ac libero sed justo feugiat rutrum.",
+            "fechaInicio": "2019-03-01T00:00:00.000Z",
             "fechaFin": "2020-03-01T00:00:00.000Z"
         },
         {
-            "empresa": "pepe",
-            "puesto": "pepe2",
-            "descripcion": "descripcion1",
-            "fechaInicio": "2020-01-01T00:00:00.000Z",
-            "fechaFin": "2020-03-01T00:00:00.000Z"
-        },
-        {
-            "empresa": "pepe",
-            "puesto": "pepe2",
-            "descripcion": "descripcion1",
-            "fechaInicio": "2020-01-01T00:00:00.000Z",
+            "empresa": "Oracle Corporation",
+            "puesto": "Senior Software Engineer",
+            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet auctor nisl. Nullam ac libero sed justo feugiat rutrum.",
+            "fechaInicio": "2019-02-01T00:00:00.000Z",
             "fechaFin": "2020-03-01T00:00:00.000Z"
         }
     ]
