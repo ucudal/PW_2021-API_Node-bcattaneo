@@ -49,7 +49,7 @@ app.post("/enviar-formulario", function(req, res) {
         res.cookie("PW_2021-CV_Contacto", nombreContacto, {
             httpOnly: true,
         });
-        res.send(db.contactos);
+        res.send("ok");
     }
 });
 
