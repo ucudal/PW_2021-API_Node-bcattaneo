@@ -1,4 +1,5 @@
 const express = require("express");
+const cors = require("cors");
 const { validarExistenciaContacto, actualizarDb, obtenerDb } = require("./utils");
 
 const claveExperiencia = "experiencia-laboral";
@@ -6,6 +7,7 @@ const claveExperiencia = "experiencia-laboral";
 let app = express();
 let db = obtenerDb();
 
+app.use(cors())
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
