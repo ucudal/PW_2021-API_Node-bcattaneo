@@ -28,6 +28,8 @@ app.get("/experiencia-laboral", function(req, res) {
 app.post("/enviar-formulario", function(req, res) {
     const body = req.body;
     const nombreContacto = body.nombreContacto;
+    const emailContacto = body.emailContacto;
+    const mensajeContacto = body.mensajeContacto;
 
     if (!nombreContacto) {
         res.status(400).send("Falta el nombre de contacto");
@@ -36,6 +38,8 @@ app.post("/enviar-formulario", function(req, res) {
         if (validarExistenciaContacto(nombreContacto, db)) {
             db.contactos.push({
                 nombreContacto: nombreContacto,
+                emailContacto: emailContacto,
+                mensajeContacto: mensajeContacto
             });
             actualizarDb(db);
         }
